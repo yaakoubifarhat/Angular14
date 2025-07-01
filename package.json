@@ -1,14 +1,10 @@
-{
-  "name": "anguar144",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "build": "ng build",
-    "start": "ng serve",
-    "selenium-tests": "ng e2e",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-  },
+"scripts": {
+  "build": "npx ng build",
+  "start": "npx ng serve",
+  "selenium-tests": "npx ng e2e",
+  "test": "npx ng test"
+}
+,
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",
