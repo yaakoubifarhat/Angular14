@@ -8,7 +8,7 @@
   "selenium-tests": "ng e2e",
   "watch": "ng build --watch --configuration development",
   "test": "ng test"
-}
+},
 
   "dependencies": {
     "@angular/animations": "^14.2.0",
