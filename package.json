@@ -1,15 +1,14 @@
 {
   "name": "anguar144",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "selenium-tests": "ng e2e"
-  },
   "private": true,
+  "scripts": {
+    "build": "npx ng build",
+    "start": "npx ng serve",
+    "selenium-tests": "npx ng e2e",
+    "watch": "npx ng build --watch --configuration development",
+    "test": "npx ng test"
+  },
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",
@@ -34,8 +33,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.7.2",
-    "protractor": "^7.0.0",
-    "webdriver-manager": "^12.1.8"
+    "typescript": "~4.7.2"
   }
 }
