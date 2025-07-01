@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npx ng build",
-    "start": "npx ng serve",
-    "selenium-tests": "npx ng e2e",
-    "watch": "npx ng build --watch --configuration development",
-    "test": "npx ng test"
+    "build": "ng build",
+    "start": "ng serve",
+    "selenium-tests": "ng e2e",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "dependencies": {
     "@angular/animations": "^14.2.0",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.10",
-    "@angular/cli": "~14.2.10",
+    "@angular/cli": "^14.2.10",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.3.0",
